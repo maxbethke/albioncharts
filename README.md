@@ -13,7 +13,7 @@ provided by the [Albion Online Data Project](http://albion-online-data.com)
 The only thing I was missing was a price history
 for items. When I was crafting, I wanted to know
 what price the item had the last 30 days or so, so
-I could sell it on the marketplace for an apropriate
+I could sell it on the marketplace for an appropriate
 price.
 
 The AODP already collects and provides that data.
