@@ -38,6 +38,6 @@ as it lives from the market data they provide.
 ## Special Thanks to
 * The creators of the AODP for creating and running that project.
 * [Broderickhyman](https://github.com/broderickhyman) for providing and maintaining [a list of all items](https://github.com/broderickhyman/ao-bin-dumps) in albion online.
-* [MongoDB Cloud Atlas](https://www.mongodb.com/cloud/atlas/lp) for hosting the database for this project for free.
+* [MongoDB Cloud Atlas](https://www.mongodb.com/cloud/atlas) for hosting the database for this project for free.
 * Sandbox Interactive for tolerating the use of their (internal) API.
 * Engelbert Tristram (Ethan02) for giving his best on [documenting above mentioned API](https://www.tools4albion.com/api_info.php) out of trail and error and sharing his insights.
