@@ -34,3 +34,6 @@ to get in touch.
 The best way to support this project is to use the
 Albion Online Data Client and share it with your friends,
 as it lives from the market data they provide.
+
+## Special Thanks to
+* [Broderickhyman](https://github.com/broderickhyman) for providing and maintaining [a list of all items](https://github.com/broderickhyman/ao-bin-dumps)
