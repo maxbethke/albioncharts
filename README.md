@@ -22,8 +22,7 @@ I just needed to make a frontend for it.
 ## Backend/API
 To keep database size low (and hosting free), I use the
 external APIs whenever possible. Some backend is required tho,
-Which I develop in Express.js in typescript on [maxbethke/albionchartsapi]
-(https://github.com/maxbethke/albionchartsapi).
+Which I develop in Express.js in typescript on [maxbethke/albionchartsapi](https://github.com/maxbethke/albionchartsapi).
 
 The repo is set to private right now as it stores database credentials.
 
