@@ -19,6 +19,14 @@ price.
 The AODP already collects and provides that data.
 I just needed to make a frontend for it.
 
+## Backend/API
+To keep database size low (and hosting free), I use the
+external APIs whenever possible. Some backend is required tho,
+Which I develop in Express.js in typescript on [maxbethke/albionchartsapi]
+(https://github.com/maxbethke/albionchartsapi).
+
+The repo is set to private right now as it stores database credentials.
+
 ## Roadmap and Development Process
 I track the things I want to implement on
 [Trello](https://trello.com/b/5bNEsHen/albioncharts).
