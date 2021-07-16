@@ -1,11 +1,9 @@
 <template>
-  <v-autocomplete
-    v-model="searchTerm"
+  <v-text-field
+    v-model="search"
     :loading="isLoading"
     @change="query"
-    item-text="name"
-    item-value="uniqueName"
-  ></v-autocomplete>
+  ></v-text-field>
 </template>
 
 <script>
@@ -16,7 +14,7 @@ export default {
 
   data() {
     return {
-      searchTerm: "",
+      search: null,
       items: [],
       isLoading: false,
     };
@@ -24,20 +22,20 @@ export default {
 
   methods: {
     async query() {
-      console.log("QQ");
+      const term = this.search
+      console.log('Loading Items for '+term)
       this.toggleLoading();
-      this.items = await ItemService.search(this.searchTerm);
+
+      const items = await ItemService.search(term);
+      console.log(items)
+
+      this.items = items
+
       this.toggleLoading();
     },
 
     toggleLoading() {
       this.isLoading = !this.isLoading;
-    },
-  },
-
-  watch: {
-    searchTerm() {
-      this.query();
     },
   },
 };
