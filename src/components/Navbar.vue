@@ -1,6 +1,7 @@
-<template lang="pug">
-v-app-bar
-  v-toolbar-title Albion Charts
+<template>
+  <v-app-bar app dark>
+    <v-toolbar-title> Albion Charts </v-toolbar-title>
+  </v-app-bar>
 </template>
 
 <script>

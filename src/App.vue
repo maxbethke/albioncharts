@@ -1,7 +1,8 @@
 <template lang="pug">
 v-app
   Navbar
-  Searchbar
+  v-main
+    Searchbar
 </template>
 
 <script>
