@@ -17,19 +17,22 @@ class ItemService {
       });
   }
 
-  async icon(itemId) {
+  async details(itemId) {
+    const url =
+      "https://gameinfo.albiononline.com/api/gameinfo/items/" +
+      itemId +
+      "/data";
+
+    console.log("Querying " + url);
+
     return await axios
-      .get("http://render.albiononline.com/v1/item/" + itemId + ".png", {
-        headers: {
-          "Content-type": "image/png"
-        }
-      })
+      .get(url)
       .then((res) => {
         return res.data;
       })
       .catch((error) => {
         this.handleError(error);
-        return [];
+        return null;
       });
   }
 
