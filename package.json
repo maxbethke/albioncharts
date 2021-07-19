@@ -10,6 +10,7 @@
   "dependencies": {
     "@vue/cli-plugin-babel": "4.1.1",
     "axios": "0.21.1",
+    "lightweight-charts": "3.3.0",
     "vue": "^2.6.11",
     "vue-loader": "16.3.1",
     "vuetify": "2.5.6"
